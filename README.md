@@ -1,5 +1,3 @@
-# Spring_Batch
-
 <h1>Spring Batch Example</h1>
 This repository contains a basic example of using Spring Batch for batch processing of data. The example reads data from a CSV file, processes it, and writes the processed data to a database table.
 
