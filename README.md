@@ -2,8 +2,8 @@
 This repository contains a basic example of using Spring Batch for batch processing of data. The example reads data from a CSV file, processes it, and writes the processed data to a database table.
 
 <h3>Components</h3>
-* ItemReader: Reads data from the CSV file.
-* ItemProcessor: Processes the data by converting names to uppercase.
+1. ItemReader: Reads data from the CSV file.
+2. ItemProcessor: Processes the data by converting names to uppercase.
 * ItemWriter: Writes the processed data to a database table.
 * Job: Defines the batch job, including the sequence of steps to be executed.
 * JobExecutionListener: Handles post-job execution tasks, such as logging job completion status and verifying results in the database.
